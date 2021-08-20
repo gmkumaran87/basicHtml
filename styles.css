@@ -1,0 +1,41 @@
+    body {
+        background-color: bisque;
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        font-family: monospace;
+        font-size: 1.6rem;
+    }
+    
+    .container {
+        width: 85%;
+    }
+    
+    .img-container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .main-heading {
+        text-align: center;
+        letter-spacing: 7px;
+        color: rgba(100, 45, 23, .8);
+        text-transform: uppercase;
+        padding: 5px;
+        text-shadow: 2px 4px 10px rgba(100, 45, 23, .8);
+    }
+    
+    .image {
+        box-shadow: 2px 4px 10px 5px rgba(100, 45, 23, .8);
+        margin: 20px auto;
+    }
+    
+    .about {
+        font-size: 1.6rem;
+        font-family: 'Courier New', Courier, monospace;
+        padding: 10px;
+    }
+    
+    .favs {
+        list-style-type: circle;
+    }
